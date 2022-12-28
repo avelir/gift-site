@@ -22,8 +22,8 @@ body {
   display: none;
 }
 .giftcard {
-  height: 300px;
-  width: 500px;
+  height: 450px;
+  width: 780px;
   font-family: PT Sans, sans-serif;
   overflow: hidden;
   border-radius: 1.5rem/2rem;
@@ -55,7 +55,9 @@ body {
   padding: 1rem 2rem;
   color: #939393;
   z-index: 1;
-  background: white;
+  background-image: url(dogs.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .giftcard-content > * {
   transform: translateX(3rem);
@@ -83,7 +85,8 @@ body {
 }
 .giftcard-content a,
 .giftcard-content .subtext {
-  color: #939393;
+  color: #ff847c;
+  font-size: 18px;
 }
 .giftcard-content a {
   display: block;
@@ -598,6 +601,15 @@ input[type="text"] {
 }
 
 .giftcard-content h3 {
-  margin-top: 20px;
-  font-size: 25px;
+  margin-top: 65px;
+  font-size: 28px;
+  color: cornflowerblue;
+}
+
+.giftcard-content h2 {
+  margin-left: 180px;
+  font-weight: 700;
+  color: #c83349;
+  font-size: 35px;
+  font-weight: 600;
 }
